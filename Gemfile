@@ -1,12 +1,11 @@
 source 'https://rubygems.org'
 
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', group: [:development, :test]
 
-# Use bootstrap library for sytle
+# Bootstrap
 gem 'bootstrap-sass', '3.3.1'
 # Use postgresql as the database for production
 group :production do
@@ -19,8 +18,7 @@ gem 'sass-rails', '4.0.3'
 gem 'uglifier', '1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '4.0.0'
-# See https://github.com/sstephenson/execjs#readme for more supported run
-times
+# See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
@@ -40,5 +38,6 @@ gem 'spring',        group: :development
 # gem 'capistrano-rails', group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
 
 
